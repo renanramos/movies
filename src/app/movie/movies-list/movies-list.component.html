@@ -1,11 +1,14 @@
 <h1>
-    Movies list
+    Filmes populares
 </h1>
 
-<ul>
-    <li *ngFor="let movie of movies">
-        <a routerLink="{{ movie.id }}">{{ movie.title }}</a>
-    </li>
-</ul>
-
+<div class="movie-content">
+    <div class="list-movies">
+        <ul>
+            <li *ngFor="let movie of movies">
+                <a routerLink="{{ movie.id }}">{{ movie.title }}</a>
+            </li>
+        </ul>
+    </div>
+</div>
 <router-outlet></router-outlet>

@@ -26,4 +26,8 @@ export class MoviesService {
     );
   }
 
+  getMovie(id: string) {
+    return this.http.get(this.withBaseUrl(`movie/${id}`));
+  }
+
 }

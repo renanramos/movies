@@ -1,0 +1,28 @@
+ul{
+    text-align: left;
+}
+
+li{
+  list-style: none;  
+  padding: 4px  0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(95, 93, 93);
+}
+
+.movie-content{
+    display: inline-block;
+}
+
+.list-movies{
+    width: 100%;
+    display: block;
+    float: left;
+}
